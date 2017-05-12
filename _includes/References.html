@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Testing bibtex</title>
+		<link rel="stylesheet" href="bib-publication-list.css"/>
+	</head>
+	<body>
+    <noscript>
+      <!-- bibtex source hidden by default, show it if JS disabled -->
+      <style>
+      #bibtex { display: block;}
+      </style>
+    </noscript>
+    <div>
+        A (partial) list of publications using 3D Slicer shape analysis and visualization. The references were retrieved in Google Scholar using keywords 'Slicer CMF'.
+        Please <a href="https://discourse.slicer.org/c/community/slicercmf">contact us in SlicerCMF discourse</a> with any additions or questions.
+    </div> 
+    <br>
+    
+    <table id="pubTable" class="display"></table>
+    <pre id="bibtex" style="display:none;">
+
+        </pre>
+  	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="bib-list-min.js"></script>
+		<script type="text/javascript">
+		    $(document).ready(function() {
+            bibtexify("SlicerCMFReference.bib", "pubTable");
+    		});
+	</script>
+    <br>
+    <a name="rendering"></a>
+    The <a href="https://raw.githubusercontent.com/DCBIA-OrthoLab/slicercmf.github.io/master/citations/SlicerCMFReference.bib">source bibtex list</a> is rendered using vkaravir's <a href="https://github.com/vkaravir/bib-publication-list">bib-publication-list</a>.
+    </body>
+</html>
