@@ -1,6 +1,6 @@
 # Site settings
 title: SlicerCMF
-email: https://discourse.slicer.org/c/community/slicercmf
+email: beatriz.paniagua@kitware.com
 description: > # this means to ignore newlines until "baseurl:"
   Open-source image analysis software for Dental Research in 3D Slicer
 baseurl: "" # the subpath of your site, e.g. /blog/
