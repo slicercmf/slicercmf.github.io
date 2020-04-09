@@ -4,9 +4,14 @@ layout: default
 
 ![SlicerCMF](images/SlicerCMFSplashScreen.png "SlicerCMF is a collaboration between UNC-CH, UofM Dentistry, Isomics and Kitware.")
 
-What can I do using SlicerCMF?
-------------------------------
-SlicerCMF is the dissemination vehicle of powerful dental image analysis methodology based on 3D Slicer open-source software. SlicerCMF include registration, segmentation and quantification functionality modules that can support patient-specific decision making and assessment of the disease progression.
+What is SlicerCMF?
+------------------
+
+SlicerCMF is an extension of [3D Slicer][slicer], a free, open source software for visualization and image analysis. SlicerCMF can be installed from the 3D Slicer Extension Manager on Windows, Mac, and Linux to leverage the advanced features of 3D Slicer in dental image analysis.
+
+SlicerCMF provides registration, segmentation and quantification modules for dental images analysis that may support patient-specific decision making and assessment in the context of disease progression.
+
+[slicer]: https://slicer.org
 
 Available Modules
 -----------------
