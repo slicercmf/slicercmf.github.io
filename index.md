@@ -11,7 +11,14 @@ SlicerCMF is an extension of [3D Slicer][slicer], a free, open source software f
 
 SlicerCMF provides registration, segmentation and quantification modules for dental images analysis that may support patient-specific decision making and assessment in the context of disease progression.
 
+| ![screenshot] |
+| *Yatabe M, Gomes L, Ruellas AC, et al. Challenges in measuring angles between craniofacial structures. J Appl Oral Sci. 2019;27:e20180380. Published 2019 Jun 3. doi:[10.1590/1678-7757-2018-0380][screenshot-publication]* |
+{: #index-screenshot}
+
 [slicer]: https://slicer.org
+[screenshot]: images/slicercmf-angles-between-craniofacial-structures.png
+{:width="80%"}
+[screenshot-publication]: https://www.ncbi.nlm.nih.gov/pubmed/31166412
 
 Available Modules
 -----------------
