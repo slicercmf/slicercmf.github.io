@@ -24,6 +24,7 @@ Available Modules
 -----------------
 
 |[![ShapePopulationViewer-logo]][ShapePopulationViewer] | [ShapePopulationViewer] module allows to interact with multiple 3D surfaces at the same time. It supports visualization and comparison of 3D surfaces by displaying the associated pointwise data (scalar or vector maps) via customizable colormaps.|
+|[![ShapeVariationAnalyzer-logo]][ShapeVariationAnalyzer] | [ShapeVariationAnalyzer] module allows to classify 3D models according to their morphological variation. This tool is based on a deep learning neural network. The module is composed of multiple panels to perform the different steps of the process: create the classification groups, compute their average shapes, train the classifier and classify shapes.
 [![EasyClip-logo]][EasyClip] | [EasyClip] Module is used to clip and close one or several models according to a predetermined plane. Planes can be saved and reused.|
 |[![DatabaseInteractor-logo]][DatabaseInteractor] | [DatabaseInteractor] module contains multiple panels that allow the user to manage data from a web database. The data displayed in this extension dynamically reacts with user local folders and online database. The user should login with the same credentials than on the server entered as input.|
 |[![ModelToModelDistance-logo]][ModelToModelDistance] | [ModelToModelDistance] module computes a point by point distance between two models. The distance can be signed or unsigned. The output volume has the same number of points as the first input volume. The distances are saved as in the model as a point data array under the name "Distance" which is added to the input point and cell arrays already in the first input file. |
@@ -36,6 +37,8 @@ Available Modules
 {: #module-list}
 
 [ShapePopulationViewer-logo]: images/ShapePopulationViewer.png
+{:height="96px" width="96px"}
+[ShapeVariationAnalyzer-logo]: images/ShapeVariationAnalyzer.png
 {:height="96px" width="96px"}
 [EasyClip-logo]: images/EasyClip.png
 {:height="96px" width="96px"}
@@ -57,6 +60,7 @@ Available Modules
 {:height="96px" width="96px"}
 
 [ShapePopulationViewer]: https://www.slicer.org/wiki/Documentation/4.10/Extensions/ShapePopulationViewer
+[ShapeVariationAnalyzer]: https://www.slicer.org/wiki/Documentation/4.10/Extensions/ShapeVariationAnalyzer
 [EasyClip]: https://www.slicer.org/wiki/Documentation/4.10/Extensions/EasyClip
 [DatabaseInteractor]: https://www.slicer.org/wiki/Documentation/4.10/Extensions/DatabaseInteractor
 [ModelToModelDistance]: https://www.slicer.org/wiki/Documentation/4.10/Extensions/ModelToModelDistance
