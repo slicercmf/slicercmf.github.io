@@ -47,7 +47,7 @@ to the sources will be detected and the site will be locally rebuilt.
 
 ## Mapping with the `cmf.slicer.org` domain
 
-The mapping is enabled by (1) the [CNAME][CNAME] file added to the root of the repository and (2) configuration
+The mapping is enabled by (1) the [CNAME](CNAME) file added to the root of the repository and (2) configuration
 of the DNS associated `slicer.org`.
 
 
